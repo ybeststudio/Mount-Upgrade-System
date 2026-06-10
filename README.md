@@ -263,7 +263,7 @@ Bu export paketi **Best Studio** tarafından hazırlanmıştır.
 - Discord ID: `beststudio`
 - Web: https://bestpro.dev
 - TurkMMO Forum: https://forum.turkmmo.com/uye/2104546-best-studio/
-- YouTube: https://www.youtube.com/@ybeststudiotr
+- YouTube: https://www.youtube.com/@beststudiostr
 - Instagram: https://www.instagram.com/ybeststudio
 - Facebook: https://www.facebook.com/ybeststudio/
 - Twitter: https://twitter.com/ybeststudio
