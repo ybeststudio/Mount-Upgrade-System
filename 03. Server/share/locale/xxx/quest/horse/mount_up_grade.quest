@@ -1,0 +1,444 @@
+quest mount_up_grade begin
+	state start begin
+		function _req_feed()
+			return 50
+		end
+
+		function _feed_have()
+			return pc.count_item(50048)
+		end
+
+		function _sync_feed_progress()
+			local need = mount_up_grade._req_feed()
+			local inv = pc.count_item(50048)
+			local qf = pc.getqf("feed_collected")
+
+			if inv > qf then
+				pc.setqf("feed_collected", inv)
+			end
+
+			if pc.getqf("feed_collected") >= need then
+				return need
+			end
+
+			return pc.getqf("feed_collected")
+		end
+
+		function _reset_daily()
+			pc.setqf("feed_collected", 0)
+			pc.setqf("feed_taken", 0)
+		end
+
+		function _can_take_daily()
+			return get_time() >= pc.getqf("next_time")
+		end
+
+		function _can_open_ui()
+			if horse.get_level() >= 40 then
+				return 0, 13827
+			end
+			if pc.get_level() < 30 or horse.get_level() < 21 then
+				return 0, 13826
+			end
+			return 1, 0
+		end
+
+		function _mount_skill_vnums()
+			local t = {}
+			for vnum = 285, 311 do
+				table.insert(t, vnum)
+			end
+			return t
+		end
+
+		function _get_mount_skill_level(vnum)
+			return pc.get_skill_level(vnum)
+		end
+
+		function _is_mount_skill_learned(vnum)
+			return mount_up_grade._get_mount_skill_level(vnum) > 0
+		end
+
+		function _remove_mount_skill()
+			local learned = {}
+			for i, vnum in ipairs(mount_up_grade._mount_skill_vnums()) do
+				if mount_up_grade._is_mount_skill_learned(vnum) then
+					table.insert(learned, vnum)
+				end
+			end
+
+			if table.getn(learned) == 0 then
+				say_title(c_locale(13830))
+				say(c_locale(13891))
+				return
+			end
+
+			local options = {}
+			for i, vnum in ipairs(learned) do
+				table.insert(options, c_skill_name(vnum))
+			end
+			table.insert(options, c_locale(13890))
+
+			say_title(c_locale(13830))
+			say(c_locale(13889))
+
+			local s = select_table(options)
+			if s > table.getn(learned) then
+				return
+			end
+
+			local skill_vnum = learned[s]
+			say_title(c_locale(13830))
+			say(c_locale(13908, c_skill_name(skill_vnum)))
+			if select(c_locale(13909), c_locale(13910)) ~= 1 then
+				return
+			end
+
+			pc.set_skill_level(skill_vnum, 0)
+		end
+
+		when login begin
+			if pc.getqf("next_time") == 0 then
+				pc.setqf("next_time", 0)
+			end
+
+			if pc.getqf("gold_book_ready_time") > 0 and get_global_time() >= pc.getqf("gold_book_ready_time") then
+				if pc.getqf("gold_book_state") == 1 then
+					pc.setqf("gold_book_state", 2)
+					send_letter(c_locale(13859))
+				end
+			end
+		end
+
+		when 20349.chat.c_locale(13912) begin
+			say_title(c_locale(13914))
+			say(c_locale(13913))
+		end
+
+		when 20349.chat.c_locale(13888) begin
+			mount_up_grade._remove_mount_skill()
+		end
+
+		when 20349.chat.c_locale(13823) begin
+			say_title(c_locale(13830))
+
+			local need = mount_up_grade._req_feed()
+			local s = select(c_locale(13823), c_locale(13835, need), c_locale(13857))
+			if s == 3 then
+				return
+			end
+
+			if s == 1 then
+				local ok, locale_id = mount_up_grade._can_open_ui()
+				if ok == 0 then
+					say(c_locale(locale_id))
+					return
+				end
+				setskin(NOWINDOW)
+				game.open_mount_up_grade()
+				return
+			end
+
+			if pc.getqf("gold_book_state") == 2 then
+				set_state(gold_book_pickup)
+				return
+			end
+
+			if pc.getqf("gold_book_state") == 1 then
+				set_state(gold_book_craft)
+				return
+			end
+
+			if pc.getqf("gold_book_unlock") == 1 and pc.getqf("gold_book_state") == 0 then
+				set_state(gold_book_intro)
+				return
+			end
+
+			if mount_up_grade._can_take_daily() == 0 then
+				say(c_locale(13843))
+				say(c_locale(13851, get_time_remaining(pc.getqf("next_time") - get_time())))
+				say(c_locale(13863))
+				return
+			end
+
+			if mount_up_grade._feed_have() >= need then
+				pc.setqf("feed_collected", need)
+				set_state(feed_return)
+				return
+			end
+
+			if pc.getqf("feed_taken") == 0 then
+				say(c_locale(13831))
+				say("")
+				wait()
+				say(c_locale(13832))
+				say("")
+				wait()
+				say(c_locale(13833, need))
+				pc.setqf("feed_taken", 1)
+				pc.setqf("feed_collected", mount_up_grade._feed_have())
+				set_state(feed_hunt)
+				return
+			end
+
+			local have = mount_up_grade._sync_feed_progress()
+			if have >= need then
+				set_state(feed_return)
+			else
+				say(c_locale(13836, need, need - have))
+			end
+		end
+	end
+
+	state feed_hunt begin
+		when enter begin
+			local need = mount_up_grade._req_feed()
+			if mount_up_grade._feed_have() >= need then
+				pc.setqf("feed_collected", need)
+				set_state(feed_return)
+			end
+		end
+
+		when letter begin
+			setskin(NOWINDOW)
+			makequestbutton(c_locale(13823))
+			q.set_title(c_locale(13823))
+			q.start()
+		end
+
+		when button or info begin
+			say_title(c_locale(13830))
+			local need = mount_up_grade._req_feed()
+			local have = mount_up_grade._sync_feed_progress()
+			if have >= need then
+				say(c_locale(13838, need))
+			else
+				say(c_locale(13836, need, need - have))
+			end
+		end
+
+		when kill begin
+			local need = mount_up_grade._req_feed()
+			if mount_up_grade._feed_have() >= need then
+				pc.setqf("feed_collected", need)
+				set_state(feed_return)
+				return
+			end
+
+			local have = pc.getqf("feed_collected")
+			if number(1, 100) <= 20 then
+				pc.give_item2(50048, 1)
+				pc.setqf("feed_collected", mount_up_grade._feed_have())
+				if pc.getqf("feed_collected") == 1 then
+					chat(c_locale(13861))
+				else
+					chat(c_locale(13862))
+				end
+				chat(c_locale(13837, pc.getqf("feed_collected")))
+				if pc.getqf("feed_collected") >= need then
+					chat(c_locale(13838, need))
+					set_state(feed_return)
+				end
+			end
+		end
+
+		when 20349.chat.c_locale(13823) begin
+			local need = mount_up_grade._req_feed()
+			if mount_up_grade._feed_have() >= need then
+				pc.setqf("feed_collected", need)
+				set_state(feed_return)
+				return
+			end
+			say_title(c_locale(13830))
+			say(c_locale(13844, need))
+		end
+	end
+
+	state feed_return begin
+		when letter begin
+			setskin(NOWINDOW)
+			makequestbutton(c_locale(13823))
+			q.set_title(c_locale(13823))
+			q.start()
+		end
+
+		when 20349.chat.c_locale(13823) begin
+			say_title(c_locale(13830))
+
+			local need = mount_up_grade._req_feed()
+			local have = mount_up_grade._feed_have()
+			if have < need then
+				set_state(feed_hunt)
+				say(c_locale(13836, need, need - have))
+				return
+			end
+
+			say(c_locale(13839))
+			say("")
+			wait()
+			say(c_locale(13840))
+
+			if pc.get_empty_inventory_count() < 1 then
+				say(c_locale(13842))
+				return
+			end
+
+			pc.remove_item(50048, need)
+			pc.give_item2(50048, 10)
+			chat(c_locale(13841, 10))
+			chat(c_locale(13860))
+
+			pc.setqf("days_done", pc.getqf("days_done") + 1)
+			pc.setqf("next_time", get_time() + 86400)
+			mount_up_grade._reset_daily()
+
+			if pc.getqf("days_done") >= 7 and pc.getqf("gold_book_unlock") == 0 then
+				pc.setqf("gold_book_unlock", 1)
+				say(c_locale(13845))
+				send_letter(c_locale(13848))
+				set_state(gold_book_intro)
+				q.done()
+				return
+			end
+
+			q.done()
+			set_state(start)
+		end
+	end
+
+	state gold_book_intro begin
+		when letter begin
+			setskin(NOWINDOW)
+			makequestbutton(c_locale(13845))
+			q.set_title(c_locale(13845))
+			q.start()
+		end
+
+		when button or info begin
+			say_title(c_locale(13830))
+			say(c_locale(13847))
+		end
+
+		when 20349.chat.c_locale(13823) begin
+			say_title(c_locale(13830))
+			say(c_locale(13847))
+			say("")
+			wait()
+			say(c_locale(13849))
+			say("")
+			wait()
+			say(c_locale(13850))
+
+			if pc.count_item(50053) < 1 or pc.get_gold() < 100000000 then
+				say(c_locale(13852))
+				return
+			end
+
+			say(c_locale(13855))
+			if select(c_locale(13856), c_locale(13857)) ~= 1 then
+				return
+			end
+
+			if pc.count_item(50053) < 1 or pc.get_gold() < 100000000 then
+				say(c_locale(13852))
+				return
+			end
+
+			pc.remove_item(50053, 1)
+			pc.change_gold(-100000000)
+			pc.setqf("gold_book_state", 1)
+			pc.setqf("gold_book_ready_time", get_global_time() + 86400)
+			say(c_locale(13854))
+			set_state(gold_book_craft)
+		end
+	end
+
+	state gold_book_craft begin
+		when letter begin
+			setskin(NOWINDOW)
+			makequestbutton(c_locale(13845))
+			q.set_title(c_locale(13854))
+			q.start()
+		end
+
+		when login begin
+			if pc.getqf("gold_book_ready_time") > 0 and get_global_time() >= pc.getqf("gold_book_ready_time") then
+				pc.setqf("gold_book_state", 2)
+				send_letter(c_locale(13859))
+				set_state(gold_book_pickup)
+			end
+		end
+
+		when button or info begin
+			say_title(c_locale(13830))
+			if get_global_time() >= pc.getqf("gold_book_ready_time") then
+				say(c_locale(13887))
+			else
+				say(c_locale(13851, get_time_remaining(pc.getqf("gold_book_ready_time") - get_global_time())))
+				say(c_locale(13863))
+			end
+		end
+
+		when 20349.chat.c_locale(13823) begin
+			say_title(c_locale(13830))
+			if get_global_time() >= pc.getqf("gold_book_ready_time") then
+				pc.setqf("gold_book_state", 2)
+				set_state(gold_book_pickup)
+				return
+			end
+			say(c_locale(13854))
+			say(c_locale(13851, get_time_remaining(pc.getqf("gold_book_ready_time") - get_global_time())))
+			say(c_locale(13863))
+		end
+	end
+
+	state gold_book_pickup begin
+		when letter begin
+			setskin(NOWINDOW)
+			makequestbutton(c_locale(13845))
+			q.set_title(c_locale(13886))
+			q.start()
+		end
+
+		when button or info begin
+			say_title(c_locale(13830))
+			say(c_locale(13886))
+		end
+
+		when 20349.chat.c_locale(13823) begin
+			say_title(c_locale(13830))
+
+			if get_global_time() < pc.getqf("gold_book_ready_time") then
+				say(c_locale(13854))
+				say(c_locale(13851, get_time_remaining(pc.getqf("gold_book_ready_time") - get_global_time())))
+				set_state(gold_book_craft)
+				return
+			end
+
+			if pc.get_empty_inventory_count() < 2 then
+				say(c_locale(13842))
+				return
+			end
+
+			say(c_locale(13887))
+			say("")
+			wait()
+			say(c_locale(13853))
+
+			if horse.get_level() < 31 then
+				horse.set_level(31)
+			end
+
+			pc.give_item2(50049, 1)
+			pc.give_item2(50047, 5)
+			pc.setqf("gold_book_state", 3)
+			pc.setqf("gold_book_ready_time", 0)
+
+			chat(c_locale(13881))
+			chat(c_locale(13858, 5))
+
+			q.done()
+			set_state(start)
+		end
+	end
+end

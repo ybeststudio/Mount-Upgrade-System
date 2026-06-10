@@ -1,0 +1,145 @@
+quest horse_revive begin
+	state start begin
+		when 20349.chat.c_locale(2172) with horse.get_grade() == 3 and horse.is_dead() and pc.count_item(50059) < 1 begin
+			say_title(c_locale(2090))
+			say(c_locale(2178))
+			if pc.count_item(50058) >= 1 then
+				say_title(c_locale(2090))
+				say(c_locale(2179))
+			elseif pc.count_item(50057) >= 1 then
+				say_title(c_locale(2090))
+				say(c_locale(2180))
+			end
+		end
+
+		when 20349.chat.c_locale(2172) with horse.get_grade() == 3 and horse.is_dead() and pc.count_item(50059) >= 1 begin
+			say_title(c_locale(2090))
+			say(c_locale(2181))
+			wait()
+			say_title(c_locale(2090))
+			say(c_locale(2182))
+			horse.summon()
+			wait()
+			say_title(c_locale(2090))
+			say(c_locale(2183))
+			if pc.count_item(50059) >= 1 then
+				pc.removeitem(50059, 1)
+				horse.revive()
+			end
+		end
+
+		when 20349.chat.c_locale(2172) with horse.get_grade() == 2 and horse.is_dead() and pc.count_item(50058) < 1 begin
+			say_title(c_locale(2090))
+			say(c_locale(2184))
+			if pc.count_item(50059) >= 1 then
+				say_title(c_locale(2090))
+				say(c_locale(2185))
+			elseif pc.count_item(50057) >= 1 then
+				say_title(c_locale(2090))
+				say(c_locale(2180))
+			end
+		end
+
+		when 20349.chat.c_locale(2173) with horse.get_grade() == 2 and horse.is_dead() and pc.count_item(50058) >= 1 begin
+			say_title(c_locale(2090))
+			say(c_locale(2174))
+			wait()
+			say_title(c_locale(2090))
+			say(c_locale(2182))
+			horse.summon()
+			wait()
+			say_title(c_locale(2090))
+			say(c_locale(2183))
+			if pc.count_item(50058) >= 1 then
+				pc.removeitem(50058, 1)
+				horse.revive()
+			end
+		end
+
+		when 20349.chat.c_locale(2173) with horse.get_grade() == 1 and horse.is_dead() and pc.count_item(50057) < 1 begin
+			say_title(c_locale(2090))
+			say(c_locale(2175))
+			if pc.count_item(50059) >= 1 then
+				say_title(c_locale(2090))
+				say(c_locale(2185))
+			elseif pc.count_item(50058) >= 1 then
+				say_title(c_locale(2090))
+				say(c_locale(2176))
+			end
+		end
+
+		when 20349.chat.c_locale(2172) with horse.get_grade() == 1 and horse.is_dead() and pc.count_item(50057) >= 1 begin
+			say_title(c_locale(2090))
+			say(c_locale(2177))
+			wait()
+			say_title(c_locale(2090))
+			say(c_locale(2182))
+			horse.summon()
+			wait()
+			say_title(c_locale(2090))
+			say(c_locale(2183))
+			if pc.count_item(50057) >= 1 then
+				pc.removeitem(50057, 1)
+				horse.revive()
+			end
+		end
+
+		when 50057.use with horse.get_grade() == 2 begin
+			say_title(c_locale(13904))
+			say(c_locale(13901))
+		end
+
+		when 50057.use with horse.get_grade() == 3 begin
+			say_title(c_locale(13904))
+			say(c_locale(13900))
+		end
+
+		when 50058.use with horse.get_grade() == 1 begin
+			say_title(c_locale(13904))
+			say(c_locale(13903))
+		end
+
+		when 50058.use with horse.get_grade() == 3 begin
+			say_title(c_locale(13904))
+			say(c_locale(13900))
+		end
+
+		when 50059.use with horse.get_grade() == 1 begin
+			say_title(c_locale(13904))
+			say(c_locale(13903))
+		end
+
+		when 50059.use with horse.get_grade() == 2 begin
+			say_title(c_locale(13904))
+			say(c_locale(13901))
+		end
+
+		when 20349.chat.c_locale(2172) with horse.get_grade() == 4 and horse.is_dead() and pc.count_item(50046) < 1 begin
+			say_title(c_locale(13904))
+			say(c_locale(13905))
+			wait()
+		end
+
+		when 20349.chat.c_locale(2172) with horse.get_grade() == 4 and horse.is_dead() and pc.count_item(50046) >= 1 begin
+			say_title(c_locale(13904))
+			say(c_locale(13906))
+			wait()
+			say_title(c_locale(13904))
+			say(c_locale(2182))
+			horse.summon()
+			wait()
+			say_title(c_locale(13904))
+			say(c_locale(2183))
+			if pc.count_item(50046) >= 1 then
+				pc.removeitem(50046, 1)
+				horse.revive()
+			end
+		end
+	end
+
+	state __COMPLETE__ begin
+		when enter begin
+			q.done()
+		end
+	end
+end

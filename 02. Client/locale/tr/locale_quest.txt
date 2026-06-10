@@ -1,0 +1,378 @@
+2089	At Madalyonu için Bilet
+2090	Seyis:
+2091	Bu bilet at madalyonu almak için. Bu bileti[ENTER]madalyon ile deðiþtirebilirsin. Deðiþtirmek[ENTER]istiyor musun?
+2092	Deðiþtir
+2093	Sana at madalyonu verdim.
+2094	Atlar hakkýnda bilgi
+2095	At üzerine görev yapmak için, At madalyonu[ENTER]gerekli. Onu Maymun zindanindan alabilirsin.
+2096	Atlar üç seviyedir: Acemi, ileri seviye ve uzman.[ENTER]Yeterince çalýþýp bir sonraki seviyeye geçmek[ENTER]istediðinde, bir sýnav vermen gerekir.
+2097	Atlar binicinin farklý çalýþtýrma þekilleri[ENTER]nedeniyle seviyelerine uygun yeme ihtiyaç duyar.[ENTER]Acemi atlar saman yer, ileri seviye atlar havuç,[ENTER]uzman atlarsa yalnýz kýrmýzý ginseng. Aðýzlarýnýn[ENTER]tadýný iyi biliyorlar.
+2098	Atýn saðlýklýysa, gösterge yeþil görünüyor, aç[ENTER]olursa sarý, ölmek üzereyse kirmizi. Kýrmýzý veya[ENTER]sarýdan yeþile çýkmasý için onu beslemelisin. Bu[ENTER]ciddi bir konu, ya atýn ölürse!
+2099	Ata bindigin zaman, yorgunlugu artýyor ve saðlýðý[ENTER]da düþüyor. Saðlýksýz ata binemeyeceðin için,[ENTER]arada onu dinlendirmelisin.
+2100	Bir rivayete göre, ölü atlar tekrar[ENTER]canlandýrýlabiliyor. Ama Maymunlar bunun için[ENTER]gerekli bitkileri koruyor ve onu almak çok zor.[ENTER]Maymunlar seni yakalarsa, seni de lanetleyip[ENTER]maymuna dönüþtürüyorlar.
+2101	Deðiþik binicilik seviyeleri var ve atýnýn[ENTER]seviyesini de yükseltebilirsin. Ama bir ata[ENTER]sadece at madalyonuna sahip olan kiþi seviye[ENTER]atlatabilir.
+2102	Bo'yu öldür!
+2103	Siyah Ork'larý atýnýn üzerindeyken öldür. Eðer[ENTER]attan inersen kaybedersin.
+2104	Karanlýk iþkenceciyi öldür!
+2105	Karanlýk iþkenceciyi atýn üzerindeyken öldür.[ENTER]Attan inersen kaybedersin.
+2106	Zehirli pençe örümceðini öldür!
+2107	Zehirli pençe örümceðini atýn üzerindeyken öldür.[ENTER]Attan inersen kaybedersin.
+2108	Çöl haydutunu öldür!
+2109	Çöl haydutunu atýn üzerindeyken öldür.[ENTER]Attan inersen kaybedersin.
+2110	Buz golemini öldür.
+2111	Bir buz golemi öldür!
+2112	Buz golemini atýn üzerinden öldür.[ENTER]Ýnersen kaybedersin.
+2113	Bo'yu atýn üzerindeyken öldür.[ENTER]Attan inersen kaybedersin.
+2114	Buz golemini atýn üzerindeyken öldür.[ENTER]Attan inersen kaybedersin.
+2115	Savaþ kaplanýný öldür!
+2116	Savaþ kaplanýný atýn üzerindeyken öldür.[ENTER]Attan inersen kaybedersin.
+2117	At sürerken nasýl savaþýrsýn?
+2118	Seyis:
+2119	Atýn þu an en yüksek deneyime sahip. Artýk atýný[ENTER]güçlendirmelisin.
+2120	Eðitim için at madalyonuna ihtiyacýn var.[ENTER]Sonuçlarýn madalyona yazýlacak.
+2121	Atýn dinlenmeye ihtiyacý var.[ENTER]Yarýn tekrar gel.
+2122	Atýn çok yoruldu.[ENTER]Dinlenmesine izin ver.
+2123	Atýn çok acýktý. Onu besle.
+2124	Chuong'u öldür!
+2125	Gel bana doðru sür.
+2126	At sürerken saldýrý yapma normal at sürmekten[ENTER]daha zordur. Eðitimler seni bu konuda[ENTER]ustalaþtýracaktýr. Canavarlarla at üzerinde[ENTER]savaþarak eðitim yap. Eðer atýndan düþersen[ENTER]kaybedersin. Bu sebeple dikkatli olmalýsýn![ENTER]Eðitim sonuçlarýn madalyonuna yazýlacak.
+2127	At madalyonu al.
+2128	At üzerinde savaþabilmek için at madalyonuna[ENTER]ihtiyacýn var.[ENTER]Onu Maymun zindanýndan alabilirsin.
+2129	At sürerken saldýrý baþarýsýz.
+2130	Atýndan düþtün veya indin. Görev tamamlanamadý.
+2131	Seyise geri dön.
+2132	Seyise gittiðinde, eðitim sonuçlarýný[ENTER]madalyonundan kontrol ettirebilirsin.
+2133	Herþey bitti mi?[ENTER]Eðitimine yarýn devam edeceksin. Bugünün[ENTER]sonuçlarý madalyona iþlendi.
+2134	Eðitim sonuçlarý
+2135	Chuong'u attan inmeden öldür.[ENTER]Eðer attan inersen kaybedersin.
+2136	Eðitim sonuçlarý
+2137	Atýn yeterince eðitimli deðil.
+2138	Atýn hala seviye atlayabilir.
+2139	At sürerken saldýrý baþarýsýz.[ENTER][ENTER]Seyise geri dön ve tekrar dene.
+2140	At eðitimi baþarýyla tamamlandý
+2141	Atýnýn seviyesi %s
+2142	Seyise geri dön ve bineðini eðitimle ileri seviye[ENTER]bineðe ve uzman bineðe dönüþtür.
+2143	Atýný uzman binici atýna dönüþtürmek için atýnýn[ENTER]seviyesi 20 olmalý.
+2144	At madalyonu olmadan sonuçlarý kaydedemezsin.
+2145	Chuong'u atýn üzerindeyken öldür.[ENTER]Eðer düþersen kaybedersin.
+2146	Elit ork generalini öldür!
+2147	Elit ork generalini atýndan inmeden öldür. Eðer[ENTER]inersen yada düþersen kaybedersin.
+2148	Elit ork generalini öldür! Elit ork generalini at[ENTER]üzerindeyken öldür. Eðer düþersen kaybedersin.
+2149	Siyah Ork'u öldür!
+2150	Kalan Bo
+2151	Kalan Choung
+2152	Kalan E.Ork Gen
+2153	Kalan Siyah Ork
+2154	Kalan Ýþkenceci
+2155	Kalan Örümcek
+2156	Kalan Haydut
+2157	Kalan Buz Golemi
+2158	Kalan Savaþ Kaplaný
+2159	Atýn karakteri gözleniyor
+2160	Yeni isim çok uzun.
+2161	Þu anda bir atýnýz yok.
+2162	Bu isim kullanýlamaz.
+2163	Atýn ismi deðiþtirildi.
+2164	Atý isimlendirmek
+2165	Bunun için aþaðýdakilere ihtiyacýnýz var:
+2166	Atýn þu anki gücü:
+2167	Atýn mevcut dayanýklýlýðý:
+2168	Atýn þu anda ismi yok.
+2169	At zaten çaðýrýldý:
+2170	At için yeni bir isim belirle.
+2171	Yeni isim çok kýsa.
+2172	At canlandýrma.
+2173	Atý canlandýrma.
+2174	Bu maymun bitkileri Normal Maymun Zindaný'ndan[ENTER]toplandý ve atýný canlandýrabilir. Ama önce atýný[ENTER]çaðýrman gerek.
+2175	Atýný sadece, Kolay Maymun Zindaný'ndan[ENTER]bulabileceðin maymun bitkileriyle[ENTER]canlandýrabilirsin. Fakat, bunu baþarmak[ENTER]gerçekten zor. Çünkü bitkiler maymunlar[ENTER]tarafýndan korunuyor. Hayvanlar çok güçlü ve[ENTER]sinirli rakipler.
+2176	Bilmen gereken bir þey daha var: Normal Maymun[ENTER]Zindaný'ndan toplanan maymun bitkileri sadece[ENTER]ileri seviye binicilerin atlarý için.
+2177	Bunlar Kolay Maymun Zindaný'ndan toplanan maymun[ENTER]bitkileri. Atýný canlandýrabilirler. Ama önce[ENTER]atýný çaðýrman gerekir.
+2178	Atýný sadece, Zor Maymun Zindaný'ndan[ENTER]bulabileceðin maymun bitkileriyle[ENTER]canlandýrabilirsin. Fakat, bunu baþarmak[ENTER]gerçekten zor. Çünkü bitkiler maymunlar[ENTER]tarafýndan korunuyor. Hayvanlar çok güçlü ve[ENTER]sinirli rakipler.
+2179	Bilmen gereken bir þey daha var: Normal Maymun[ENTER]Zindaný'ndan toplanan maymun bitkileri sadece[ENTER]ileri seviye binicilerin atlarý için.
+2180	Bilmen gereken bir þey daha var: Kolay Maymun[ENTER]Zindaný'ndan toplanan maymun bitkileri acemi[ENTER]atlar için.
+2181	Bu maymun bitkileri Zor Maymun Zindanýndan[ENTER]toplandý ve atýný canlandýrabilir.[ENTER]Ama önce atýný çaðýrman gerek.
+2182	Atý bitkilerle besle ve bekle.[ENTER][DELAY value=400]...[/DELAY][ENTER]
+2183	At canlandý. Gelecekte atýný beslemeyi unutma.
+2184	Atýný sadece, Kolay Maymun Zindaný'ndan[ENTER]bulabileceðin maymun bitkileriyle[ENTER]canlandýrabilirsin. Fakat, bunu baþarmak[ENTER]gerçekten zor. Çünkü bitkiler maymunlar[ENTER]tarafýndan korunuyor. Hayvanlar çok güçlü ve[ENTER]sinirli rakipler.
+2185	Bilmen gereken bir þey daha var: Zor Maymun[ENTER]Zindaný'ndan toplanan maymun bitkileri uzman[ENTER]binicilerin atlarý için.
+2186	Bin (binici kartýný kullan)
+2187	Sana at kiralayabiliriz.[ENTER]Bir at kiralamak istiyorsan gel.
+2188	At sürmek mi istiyorsun? Sana binicilik kartýyla[ENTER]at kiralayabiliriz. Binicilik seviyene baðlý[ENTER]olarak 10 dakika kadar at sürebilirsin. At[ENTER]sürmekle ilgili henüz çok yetenekli deðilsin, bu[ENTER]sebeple atý sadece sürebilirsin ancak onunla[ENTER]saldýrý yapamazsýn.
+2189	Sürme
+2190	Binicilik biletine ihtiyacýn var.
+2191	Yeni at resmi
+2192	Asker At kitabýný kaybetmiþsin.[ENTER]Sana yeni bir tanesini 500.000 Yang karþýlýðýnda[ENTER]verebilirim.
+2193	Bu asker at kitabý. Onu tekrar kaybetme.
+2194	Acemi atý çaðýrabilmek için, önce sýnavý[ENTER]geçmelisin.
+2195	Acemi at çaðýrýldý.
+2196	Olmadý! Acemi atýný çaðýramadýn. At çaðýrma[ENTER]yeteneðini geliþtirerek atýný çaðýrabilme þansýný[ENTER]artýrabilirsin.
+2197	Zihinsel gücün acemi binici atýný çaðýrmaya[ENTER]yetmiyor.[ENTER]Bunun için en az 100 Mana Puanýna sahip olman[ENTER]gerek.
+2198	Ýleri seviye binici atýný çaðýrabilmen için[ENTER]zýrhlý at kitabýna ihtiyacýn var.
+2199	Uzman binici atýný çaðýrabilmek için asker at[ENTER]kitabýna ihtiyacýn var.
+2200	Atý çaðýrabilmek için sýnavdan geçmelisin.
+2201	Acemi atý çaðýrabilmek için, at resmine ihtiyacýn[ENTER]var.
+2202	At resmini kaybettin! Sana yeni bir at resmini[ENTER]400.000 Yang'a verebilirim.
+2203	Ýleri seviye binici atý çaðýrýldý.
+2204	Zýrhlý atý çaðýrma baþarýsýz oldu. At çaðýrma[ENTER]yeteneðini geliþtirerek çaðýrma þansýný[ENTER]arttýrabilirsin.
+2205	Zihinsel gücün ileri seviye binici atýný[ENTER]çaðýrmaya yetmiyor.[ENTER]Bunun için en az 200 Mana Puanýna sahip olman[ENTER]gerek.
+2206	Uzman binici atý çaðýrmak için, asker at kitabýna[ENTER]ihtiyacýn var.
+2207	Ýleri seviye binici atýný çaðýrabilmek için[ENTER]sýnavdan geçmelisin.
+2208	Ýleri seviye binici atýný çaðýrmak için, zýrhlý[ENTER]at kitabýna ihtiyacýn var.
+2209	Uzman binici atý çaðýrýldý.
+2210	Olmadý - Asker at çaðýrma baþarýsýz.[ENTER]At Çaðýrma yeteneðini geliþtirerek çaðýrma[ENTER]þansýný arttýrabilirsin.
+2211	Zihinsel gücün az. Uzman atý çaðýrabilmen için en[ENTER]az 300 Mana Puanýna sahip olman gerekir.
+2212	- Ateþ Ankasý
+2213	Bu yeni at resmi. Onu tekrar kaybetme.
+2214	Binek üstündeyken Ateþ Ankasý'ný çaðýramazsýn.
+2215	Yeterince Yang'ýn yok.
+2216	Yeni zýrhlý at kitabý
+2217	Zýrhlý at kitabýný kaybetmiþsin![ENTER]Sana yeni bir kitabý 500.000 Yang'a verebilirim.
+2218	Bu yeni zýrhlý at kitabý. Onu tekrar kaybetme.
+2219	Yeterince Yang'ýn yok.
+2220	Yeni asker at kitabý
+2221	Ölmüþ bir atý geliþtiremezsin! Git 1. seviye[ENTER]canlandýrma bitkilerini al ve canlandýrayým.[ENTER]Daha sonra atýný geliþtirme konusunu konuþuruz.
+2222	Zýrhlý at kitabý sýnavý
+2223	100 Akrep okçu ve yýlan okçuyu 30 dakikada öldür.[ENTER]Baþardýðýn zaman seyise git ve rapor ver.
+2224	Zýrhlý At Kitabý hakkýnda...
+2225	100 akrep okçu ve yýlan okçuyu 30 dakikada öldür.[ENTER]Bu görevi grupla yapabilirsin, ancak yalnýzca[ENTER]grup lideri öldürülen hedeflerin puanlarýný[ENTER]alacak.
+2226	Bunun için yeterli vaktin yok![ENTER]Git ve akrep okçu ve yýlan okçularý[ENTER]öldürebildigin kadar hýzlý öldür.
+2227	Sýnav durum raporu
+2228	Sýnav sonucu
+2229	Eðer þimdi atýný geliþtirmek istiyorsan at[ENTER]resmini zýrhlý at kitabý ile deðiþtirmelisin.[ENTER]Bu biraz zaman alabilir; yarýn geri gel.[ENTER]Bu arada, zýrhlý at kitabý için 500.000 Yang'a[ENTER]ihtiyacýn olacak.
+2230	Zýrhlý at kitabý için bekle
+2231	Seyisin zýrhlý at kitabýný bitirmesini bekle.
+2232	Atýný geliþtirmen için seviyen çok düþük. Sadece[ENTER]35 veya daha üstü seviyeler atlarýný[ENTER]geliþtirebilirler. Hazýr olduðunda tekrar gel.
+2233	Zýrhlý at kitabý hala bitmedi mi?
+2234	Üzgünüm, ama biraz daha beklemen gerekecek.[ENTER]Gelirken 500,000 Yang getirmeyi unutma!
+2235	Seyise git ve zýrhlý at kitabýný al. At resmi ve[ENTER]500.000 Yang'a ihtiyacýn olacak.
+2236	Seyise git ve Zýrhlý at kitabýný al. At resmi ve[ENTER]500.000 Yang'a ihtiyacýn olacak.
+2237	Zýrhlý At Kitabý hazýr mý?
+2238	Zýrhlý at kitabý ile daha hýzlý at sürebilecek ve[ENTER]at üzerinde saldýrý yapabileceksin.[ENTER]Bu þekilde asker at kitabýna hazýrlanacaksýn.[ENTER]Ýleriki süreçte Atýný geliþtirmek için 500.000[ENTER]Yang'a ihtiyacýn olacak.
+2239	Daha önceki gibi... Zýrhlý at kitabýna bir kez[ENTER]sahip olduðunda; atýný istediðin yere[ENTER]çaðýrabilirsin. Eðer onu kaybedersen yenisini[ENTER]alman gerekir.
+2240	Zýrhlý at kitabý için at resmine ihtiyacýn var.
+2241	Ve 500.000 Yang'a.
+2242	Eðer zýrhlý at kitabý almak istersen yine gel.
+2243	At seviyen onu geliþtirmek için çok düþük.[ENTER]Git ve binicilik yeteneðini geliþtir. Binicilik[ENTER]yeteneðin 10 olduðunda yeniden gel.
+2244	Emin misin?[ENTER]Eðer görevini iptal edersen herþeyi yeniden[ENTER]yapman gerekecek.
+2245	100 tane Akrep Okçu veya Yýlan Okçu öldürmediðin[ENTER]için sýnavý geçemedin.
+2246	Bunu tekrar söylemek istemiyorum. Eðer atýný[ENTER]sürmek istiyorsan at resmine ihtiyacýn olacak.
+2247	Eger bir zýrhlý at kitabin olursa, rakiplerine at[ENTER]üzerinden saldirabilirsin.[ENTER]Senin savas tecrübeni ve binicilik becerini test[ENTER]edecegim..[ENTER]Çöle git ve bir kaç Akrep Okçusu öldür.. Oraya[ENTER]grubunla gidebilirsin, fakat SEN grup lideri[ENTER]olmak zorundasin.
+2248	Tamam, daha sonra gel.
+2249	BILINMEYEN FONKSIYON [%s]
+2250	Sanirim zýrhlý kitabi alamazsin.[ENTER]Bu garip.. Ne için oldugunu bilmiyorum.. Ne[ENTER]oldugunu Game Master'a sormalisin.
+2251	Zýrhlý at kitabýný alabilmen için gereken görevi[ENTER]yapmalýsýn.[ENTER]Göreve katýlabilmek için At madalyonuna ihtiyacýn[ENTER]var, onu maymun zindanýndan bulabilirsin.
+2252	Kalan Okçu
+2253	Kalan Okçu
+2254	Atýmý geliþtirmek istiyorum.
+2255	At madalyonu al!
+2256	Asker at kitabý görevine katýlabilmen için at[ENTER]madalyonuna ihtiyacýn var.[ENTER]Madalyonu maymun zindanýnda bulabilirsin.
+2257	Asker at kitabý sýnavý
+2258	300 Þeytan okçusunu 30 dakikada öldür ve seyise[ENTER]dön.
+2259	Bu görevi grupla yapabilirsin, ancak sonuçlarýn[ENTER]sayýlabilmesi için grup lideri olmalýsýn.
+2260	Asker At Kitabý Hakkýnda...
+2261	30 dakikada 300 Þeytan okçusu öldür.[ENTER][ENTER]Bu görevi grupla yapabilirsin, ancak sonuçlarýn[ENTER]sayýlmasý için grup lideri olmak zorundasýn.
+2262	Sýnavý iptal etmek istediðine emin misin?
+2263	Evet.
+2264	Sadece þakaydý!
+2265	Ölü bir atý geliþtiremezsin! Atýný canlandýrmamýz[ENTER]için git ve gerekli bitkileri getir. Daha sonra[ENTER]atýný geliþtirme iþine bakabiliriz.
+2266	Tamam. Bir sonrakine iyi þanslar.
+2267	Sýnavý geçmek istiyorsan buralarda fazla[ENTER]oyalanamamalýsýn! Git ve Þeytan Okçularý öldür!
+2268	Bilinmeyen Fonksiyon [%s]
+2269	Seyise geri dön
+2270	Seyise sýnav sonucunu ilet
+2271	Yetenek sýnavý durumu
+2272	Yetenek sýnavý sonuçlarý
+2273	Ýyi iþ çýkardýn! Þimdi atýný geliþtirmek[ENTER]istiyorsan zýrhlý at kitabýný, asker at kitabýyla[ENTER]deðiþtirmelisin. Bu biraz zaman alabilir, bu[ENTER]sebeple yarýn yeniden gel. Ahh unutmadan,[ENTER]1.000.000 Yang'a ihtiyacýn olacak.
+2274	Asker At Kitabý için bekle
+2275	Seyisin asker at kitabýný bitirmesini bekle.
+2276	Seviyen atýný geliþtirmek için yeterli deðil.[ENTER]Atýný geliþtirebilmek için seviyenin 50 olmasý[ENTER]gerekir. Hazýr olduðunda tekrar gel.
+2277	At geliþim durumu
+2278	Asker at kitabý henüz hazýr deðil mi?
+2279	Üzgünüm, biraz daha beklemelisin. Ahh evet,[ENTER]unutma; asker at kitabý için 1.000.000 Yang[ENTER]getirmen gerekecek.
+2280	Seyise git
+2281	Seyise git ve asker at kitabýný al. Onun için[ENTER]zýrhlý at kitabý ve 1.000.000 Yang'a ihtiyacýn[ENTER]olacak.
+2282	Asker At Kitabýmý almak istiyorum!
+2283	Eðer asker at kitabýn olursa, atýn deðiþik savaþ[ENTER]taktikleri konusunda da ustalaþýr. Asker at[ENTER]kitabý çok nadir bulunan birþeydir ve ucuz[ENTER]deðildir. Onu almak için 1.000.000 Yang gerekir.[ENTER]Atýný geliþtirmek istiyor musun?
+2284	Atý geliþtir
+2285	Atý geliþtirme
+2286	Unut bunu
+2287	Bir defa asker at kitabýna sahip olduðunda, atýný[ENTER]istediðin her yere çaðýrabilirsin ve o seninle[ENTER]gelir. Eðer kitabý kaybedersen, tekrar almak için[ENTER]ödeme yapman gerekir. Kitabýna iyi bak.
+2288	Atýnýn seviyesi onu geliþtirmek için çok düþük.[ENTER]Git ve sürücü yeteneklerini geliþtir. Seviyesi 20[ENTER]olduðunda tekrar gel.
+2289	Asker at kitabý alabilmen için, zýrhlý at kitabýn[ENTER]olmalý.
+2290	Üzerinde 1.000.000 Yang yok.
+2291	Asker at kitabýný almak istediðinde gel.
+2292	Emin misin? Eðer þimdi pes edersen, daha sonra[ENTER]herþeye yeniden baþlaman gerekecek.
+2293	Zaman doldu!
+2294	300 Þeytan okçusu öldürmedin, bu sebeple sýnavý[ENTER]kaybettin.
+2295	Eðer tekrar denemek istersen, yeni bir at[ENTER]madalyonu al ve seyise git.
+2296	Atýný geliþtirmek istiyorsan, sýnavdan[ENTER]geçmelisin. Daha öncekiler gibi, sýnava[ENTER]katýlabilmek için at madalyonuna ihtiyacýn var.[ENTER]Onu maymun zindanýnda bulabilirsin. Elbette,[ENTER]maymunlar sana onu savaþmadan vermeyecekler.[ENTER]Çöldeki normal maymun zindanýna git.
+2297	Bunu gerçekten yeniden söylemek zorunda mýyým?[ENTER]Eðer at sürmek istiyorsan, ZIRHLI AT kitabýna[ENTER]ihtiyacýn var!
+2298	Sadece dünyadaki en güçlüler gidip Asker At[ENTER]kitabýný alabilirler. Þeytan kulesine git ve 300[ENTER]Þeytan okçusu öldür. Eðer bunu yapabilirsen artýk[ENTER]sana Asker At kitabýný vermeme kimse engel[ENTER]olamaz. Elbette bu zor bir iþ. Bunu bir grupla[ENTER]yapabilirsin ancak grup lideri olmak zorundasýn!
+2299	Peki tamam, daha sonra yine gel.
+2300	Asker At kitabýný neden alamadýðýný bilemiyorum.[ENTER](Bunu bir Game Master'a sor).
+2301	Kalan Okçu
+2302	Kalan Süre
+2303	Sv. %d Seviye görevi:[ENTER]%s %dx maðlup edildi.[ENTER]Kalan: %d
+2304	Sv. %d[ENTER]Seviye görevi baþarýyla tamamlandý.[ENTER]Ödülü görev penceresi üzerinden al.
+
+13823	At seviyesini artýr
+13824	Bu seviyede güçlü savaþ atý çaðýramazsýn.
+13825	Güçlü savaþ atý çaðrýsý baþarýsýz. Uygun beceriyi[ENTER]öðrendikten sonra atýný çaðýrman daha olasý.
+13826	Seviyen atýný geliþtirmek için yeterli deðil.
+13827	Zaten maksimum seviyeye ulaþtýn.
+13830	Seyis
+13831	Binicilik becerilerin baþlangýçta olduðundan çok[ENTER]daha iyi görünüyor! Sýký eðitiminin meyvelerini[ENTER]almaya baþlýyorsun. Sana atýný nasýl[ENTER]geliþtireceðini göstereceðim.
+13832	Seyise git ve atýný güçlendirmek için neye[ENTER]ihtiyacýn olduðunu öðren.
+13833	Atýnýn güçlenmesi için iyi yeme ihtiyacýn olacak.[ENTER]Yanlarýnda özellikle iyi saman taþýyan canavarlar[ENTER]var. %d x at yemi elde etmek için seviyendeki[ENTER]canavarlarý avla.
+13834	Yeterince güçlü olmasý için atýný iyi[ENTER]beslemelisin.
+13835	Seviyendeki canavarlarý yen ve %d at yemi al.
+13836	Seviyendeki canavarlarý yen ve %d at yemi al.[ENTER]Kalan miktar: %d
+13837	At yemi kazandýn. Miktar: %d
+13838	%d x at yemi topladýn. Seyise geri dön.
+13839	Hatýrý sayýlýr miktarda at yemi topladýn! Bu,[ENTER]atýn için mükemmel bir yem olacaktýr.
+13840	Al, buyur. Bu arada yarýn yine at yemi toplamaya[ENTER]gidebilirsin.
+13841	%d at yemi kazandýn.
+13842	Envanterin dolu olduðu için bu ödülü alamazsýn.
+13843	Ah, iþte buradasýn! Geri döneceðini biliyordum.[ENTER]Daha fazla at yemine mi ihtiyacýn var?
+13844	Eminim ne yapacaðýný hatýrlýyorsundur. Bana %d at[ENTER]yemi getir.
+13845	Altýn at kitabý kazandýn
+13847	Sonunda yeni atýný almaya hazýrsýn! Þimdiden çok[ENTER]heyecanlý görünüyorsun.
+13848	Seyis seni arýyor.
+13849	Altýn at kitabý ile yeni ve daha güçlü bir at[ENTER]alabilirsin. Ancak her þeyi hazýrlamam bir günümü[ENTER]alacak. Ayrýca eski asker at kitabýna ve 100[ENTER]milyon Yang'a ihtiyacým var.
+13850	Hazýr olduðunda bana haber ver. O zaman sana ne[ENTER]kadar zamana ihtiyacým olduðunu söylerim. Bir[ENTER]hýzlandýrýcýn varsa daha hýzlý ilerlerim.
+13851	Gözlerindeki heyecaný þimdiden görebiliyorum! Ama[ENTER]biraz daha sabýrlý olmalýsýn. Daha %s sürecek.
+13852	Hm, bir þey eksik sanýrým. Asker at kitabýna ve[ENTER]100 milyon Yang'a ihtiyacýn var. Hepsi yanýnda mý[ENTER]tekrar bak.
+13853	Yeni atýný çaðýrmak için þimdi altýn at kitabýný[ENTER]kullan. Çok heyecanlý görünüyorsun. Anlýyorum.[ENTER]Daha sonra atýný beslemek için kýrmýzý ginseng'e[ENTER](premium) ihtiyacýn var. Unutma, sadece asil çim[ENTER]ile canlandýrýlabilir!
+13854	Altýn at kitabý þu anda hazýrlanýyor. Ne kadar[ENTER]süreceðini öðrenmek için seyisle konuþ.
+13855	Nihayet. Eski asker at kitabýn ve 100 milyon Yang[ENTER]karþýlýðýnda sana altýn at kitabýný vereceðim.[ENTER]Devam etmek istiyor musun?
+13856	Deðiþtir
+13857	Ýptal et
+13858	Güçlü savaþ atýný ve %d kýrmýzý ginseng (premium)[ENTER]kazandýn.
+13859	Altýn at kitabýn tamamlandý. Seyise git.
+13860	Ýþte biraz at yemi.
+13861	At yemi kazandýn.
+13862	At yemi kazandýn (Tekrar)
+13863	Bir hýzlandýrýcý kullanarak kalan bekleme[ENTER]süresini azaltabilirsin.
+13864	Savaþý baþlat
+13865	Pes et
+13867	Enigma Tapýnaðý ile yüzleþmek ister misin?[ENTER]Çevrimiçi olmayan veya grupta yer almayan[ENTER]oyuncular katýlamaz.
+13868	Yalnýzca grup lideri savaþý baþlatabilir.
+13869	Pes etmek ve zindandan çýkmak istiyor musun? Daha[ENTER]önce kullanýlan hiçbir eþyayý geri alamayacaksýn.
+13870	Pes etmek ve zindandan çýkmak istiyor musun?[ENTER]Buraya tekrar giremezsin.
+13872	Bir portal ile konumunu deðiþtirmek ister misin?
+13873	Bu bölgeden çýkmak istiyor musun? Buraya tekrar[ENTER]giremezsin.
+13874	Evet
+13875	Hayýr
+13876	Gir
+13877	Çýk
+13878	Seyahat et
+13879	Gizli odaya girmeyi denemek ister misin?[ENTER]Baþarýsýz olursan, zindandan ýþýnlanýrsýn.[ENTER]Iþýnlanmak istiyor musun?
+13880	Bunu ancak grup lideri yapabilir.
+13881	<Tamamlandý> Altýn at kitabý kazandýn
+13882	Altýn at kitabý kazandýn (%s)
+13883	[Tamamlandý] At yemi kazandýn
+13884	[Tamamlandý] At yemi kazandýn (Tekrar)
+13885	Altýn at kitabýn tamamlandý. Seyise geri dön.
+13886	Altýn at kitabýný almak için seyisle konuþ.
+13887	Altýn at kitabýn tamamlandý!
+13888	At becerisini kaldýr
+13889	Lütfen listeden devre dýþý býrakmak istediðin at[ENTER]becerisini seç.[ENTER]
+13890	Kapat
+13891	Henüz bir beceri edinmedin.
+13893	Þimdi giremezsin.
+13894	Kuzey Rüzgarý Uçurumu'na seyahat et
+13895	Kuzey Rüzgarý Uçurumu'na seyahat etmek ister[ENTER]misin?
+13896	Ruh Sýrtý'na seyahat et
+13897	Ruh Sýrtý'na seyahat etmek ister misin?
+13898	Evet
+13899	Hayýr
+13900	Aðýr maymun bitkisi asker atýna uygulanabilir.
+13901	Normal maymun bitkisi savaþ atýna uygulanabilir.
+13903	Hafif maymun bitkisi atýna uygulanabilir.
+13904	Seyis
+13905	Gnoll Maðaralarý'ndan asil çim alarak atýný[ENTER]kurtarabilirsin. Gnolllar her zaman tetiktedir.[ENTER]Bu nedenle bu bitkiyi elde etmek kolay deðildir.[ENTER]Çok tehlikeliler ve birçoðu asil çim elde etmeye[ENTER]çalýþýrken onlara kurban gitti.
+13906	Ah, asil çim bulmuþsun! Bununla atýný[ENTER]canlandýrabilirsin. Sadece çaðýr.
+13908	%s becerisini kaldýrmak istiyor musun?
+13909	Evet
+13910	Hayýr
+13911	Bir aþama oluþturuluyor. Lütfen daha sonra tekrar dene.
+13912	At becerisi mi?
+13913	Eminim at becerisi hakkýnda bilgi edinmek[ENTER]istiyorsun. Sadece atýnýn üzerindeyken çalýþýr.[ENTER]Bunlarý uygun beceri kitaplarýný okuyarak[ENTER]öðrenebilirsin. Ardýndan kullanabilirsin.
+13914	Seyis
+13915	Kalan at yemi
+13917	Öbür Dünyaya seyahat et
+13918	Girmek istiyor musun? (3 siyah mektup gerekiyor)
+13919	Evet
+13920	Hayýr
+13921	Seviyen þartlara uymuyor. (Gereken seviye: %d)
+13922	Tüm gerekli eþyalara sahip deðilsin. (%d siyah[ENTER]mektup gerekiyor)
+13923	Bu eþya etkinlikten sonra kullanýlamaz.
+13924	Sýnav seç
+13925	Girmek istediðin sýnavý seç.
+13926	Toprak Sýnavý
+13927	Gece Sýnavý
+13928	Gök Gürültüsü Sýnavý
+13929	Göklerin Sýnavý
+13930	Kapat
+13931	Girmek için %d siyah mektuba ihtiyacýn var. Bunu[ENTER]yapmak istiyor musun?
+13932	Öbür Dünya Portalý
+13933	Ölüm Elçisi
+13934	Kurtuluþa seyahat et
+13935	Kurtuluþ, Asmodeus'u dize getiren ve barýþý[ENTER]tekrar saðlayan kahramanlarý bekliyor.[ENTER]Girmek istiyor musun?
+13936	Hae-Tae Bekçisi
+13937	Asmodeus'u yenmedin.
+13938	Ölü ruhu kullan
+13939	Ölü ruhu kullanarak Asmodeus'un HP'sini[ENTER]azaltabilirsin.[ENTER](Maksimum sayý: %d)
+13940	Kullanýlan ölü ruhlarýnýn etkisi:
+13941	20: Asmodeus'un maksimum HP'si %20 azalýr[ENTER]40: Asmodeus'un maksimum HP'si %40 azalýr[ENTER]60: Asmodeus'un maksimum HP'si %60 azalýr[ENTER]80: Asmodeus'un maksimum HP'si %90 azalýr
+13942	Bunu kullanmak istiyor musun?
+13943	(Kullanýlan ölü ruhu sayýsý: %d)
+13944	Baþka kullanamazsýn.
+13945	Lanetlenmeye seyahat et
+13946	Yalnýzca tüm elçileri yenenler Asmodeus'la[ENTER]yüzleþmek için Lanetlenmeye seyahat edebilir.[ENTER]Ölü ruhlarýn sayýsý sýfýrlanýr ve karakter,[ENTER]kullanýlan ölü ruhlarýnýn sayýsýna baðlý olarak[ENTER]pozitif bir efekt alýr.[ENTER]Girmek istiyor musun?
+13947	Ýlerleme:
+13948	Toprak elçisi: %s
+13949	Gece elçisi: %s
+13950	Gök gürültüsü elçisi: %s
+13951	Göklerin elçisi: %s
+13952	Yeterince ölü ruhu yok. (Ölü ruhu: %d)
+13953	Henüz tüm elçileri yenmedin.
+13954	Asmodeus anahtarýyla Lanetlenmeye gir
+13955	Asmodeus anahtarýný kullanmak ve bununla girmek[ENTER]istiyor musun? (Elçiler karþýsýndaki galibiyetler[ENTER]sýfýrlanýr)
+13956	Tüm gerekli eþyalara sahip deðilsin.
+13957	Altýn at kitabý sýnavý
+13958	Seyis
+13959	Çok daha güçlü oldun! Artýk bir altýn at kitabýný[ENTER]hak ettiðini kanýtlamaya hazýrsýn.
+13960	Seyis seni arýyor.
+13961	Altýn at kitabýný öyle herkese veremeyiz. Önce[ENTER]buna hazýr olup olmadýðýný görmeliyiz.
+13962	Senin görevin Gnoll Maðaralarý'na seyahat etmek[ENTER]ve oradaki canavarlarý avlamak olacak. Ne[ENTER]düþünüyorsun? Bunu baþarabilir misin?
+13963	Henüz hazýr hissetmemen doðal. Canavarlarý 30[ENTER]dakika içinde öldürmelisin. Fikrini deðiþtirirsen[ENTER]bana haber ver.
+13964	Harika! Beni hayal kýrýklýðýna uðratma. Gnoll[ENTER]Maðaralarý'na git ve 30 dakikada 100 canavar yen.[ENTER]Bunu 30 dakika içinde yapmalýsýn!
+13965	Altýn at kitabý sýnavý iþleyiþi
+13967	Sýnýrlý süre
+13968	Kalan canavarlar
+13969	Grup üyelerin sana yardýmcý olabilir. Neler[ENTER]yapabileceðinizi merak ediyorum!
+13970	Haydi bakalým! Zamanýn daralýyor!
+13971	Gnoll Maðaralarý'nda 30 dakika içinde 100 canavar[ENTER]öldür.
+13972	Altýn at kitabý sýnavý: %d öldürüldü. Kalan canavarlar: %d
+13973	Altýn at kitabý sýnavý devam ediyor. Vazgeçmek[ENTER]istiyor musun?
+13974	Pes et
+13975	Ýptal et
+13976	Sýnavý iptal etmek istediðinden emin misin?[ENTER]Dilediðin zaman seyisin yanýna gidebilir ve[ENTER]sýnavý tekrar baþlatabilirsin.
+13977	Tamam
+13978	Ýptal et
+13979	Altýn at kitabý sýnavý
+13980	Altýn at kitabý sýnavýný baþarýyla geçtin. Seyise[ENTER]geri dön.
+13981	Altýn at kitabý sýnavýný iptal ettin. Tekrar[ENTER]baþlatmak istiyorsan, seyise geri dön.
+13982	Altýn at kitabý sýnavýnda süre dolduðundan[ENTER]baþarýsýz oldun. Tekrar baþlatmak istiyorsan,[ENTER]seyise geri dön.
+13983	Altýn at kitabý sýnavýný baþarýyla geçtin! Seyise[ENTER]geri dön.
+13984	Altýn at kitabý sýnavýný baþarýyla geçtin.
+13985	Tebrikler! Altýn at kitabýn için hazýr olduðunu[ENTER]kanýtladýn.
+13986	Altýn at kitabýný almana yardým edebilirim,[ENTER]benimle konuþman yeterli. Ýþte. Baþarýyla[ENTER]tamamladýðýn sýnavýný kutlamak için!
+13987	görev ödülü olarak
+13988	%d at yemi kazandýn.
+13990	Henüz giremezsin.
+13991	Geri dön
+13992	Geri dönmek istiyor musun?
+13993	Sende 20 ölü ruhu kullandýn. (Toplam: %d)
+13994	Güçlü savaþ atýný çaðýrmak için bir altýn at[ENTER]kitabýna ihtiyacýn var.

@@ -1,0 +1,27 @@
+285	³¯½Úµ¹ÀÌ(ÀÌ¼Ó)	8	1	1	0	MOUNT_UPGRADE_NIMBLE	(4+(horselv*skilllv/100))*(skilllv/3)		3+(skilllv*(horselv*0.4))/20		180			SELFONLY		MOV_SPEED				0	0	NORMAL	0	1	1000	0
+286	°æÇèÄ¡	8	1	1	0	MALL_EXPBONUS	((horselv*skilllv/100)+1.5)+(skilllv/8)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+287	ÁúÇ³(°ø¼Ó)	8	1	1	0	MOUNT_UPGRADE_SPEED	(5+(horselv*skilllv/600))*(skilllv/5)		3+(skilllv*(horselv*0.4))/20		180			SELFONLY		ATT_SPEED				0	0	NORMAL	0	1	1000	0
+288	°æ°ø¼ú	8	1	1	0	NONE	(horselv*(skilllv*number(5,10)))/40*skilllv		1+(skilllv*(horselv*0.3))/20		300					NONE	(horselv*(skilllv*10))/40*skilllv			0	0	NORMAL	0	1	1000	0
+289	¹«Àû	8	1	1	0	NONE			(horselv*(skilllv*0.3))/60		600			SELFONLY		NONE				0	0	NORMAL	0	1	1000	0
+290	³Ë¹é¹Ì¹ßµ¿	8	1	1	0	MOUNT_UPGRADE_NO_KNOCKBACK			3+(skilllv*(horselv*0.5))/20		180					NONE				0	0	NORMAL	0	1	1000	0
+291	·£´ı¿¡°Ô°­ÇÔÀÎ°£	8	1	1	0	ATTBONUS_HUMAN	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+292	·£´ı¿¡°Ô°­ÇÔµ¿¹°	8	1	1	0	ATTBONUS_ANIMAL	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+293	·£´ı¿¡°Ô°­ÇÔ¿õ±Í	8	1	1	0	ATTBONUS_ORC	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+294	·£´ı¿¡°Ô°­ÇÔ¹Ğ±³	8	1	1	0	ATTBONUS_MILGYO	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+295	·£´ı¿¡°Ô°­ÇÔ¾ğµ¥µå	8	1	1	0	ATTBONUS_UNDEAD	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+296	·£´ı¿¡°Ô°­ÇÔ¾Ç¸¶	8	1	1	0	ATTBONUS_DEVIL	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+297	·£´ı¿¡°Ô°­ÇÔ½ÊÀÌÁö	8	1	1	0	ATTBONUS_CZ	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+298	·£´ı¿¡°Ô°­ÇÔ»ç¸·	8	1	1	0	ATTBONUS_DESERT	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+299	·£´ı¿¡°Ô°­ÇÔ°ïÃæ	8	1	1	0	ATTBONUS_INSECT	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+300	·£´ı¿¡°Ô°­ÇÔ¸ğµç¸ó½ºÅÍ	8	1	1	0	ATTBONUS_MONSTER	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+301	Å¾½ÂÁßÀÎ¸¶¿îÆ®È¿°ú»ó½Â	8	1	1	0	NONE	k*(skilllv/(140-horselv))							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+302	Á÷¾÷°­ÇÔ(¹«»ç)	8	1	1	0	ATTBONUS_WARRIOR	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+303	Á÷¾÷°­ÇÔ(ÀÚ°´)	8	1	1	0	ATTBONUS_ASSASSIN	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+304	Á÷¾÷°­ÇÔ(¼ö¶ó)	8	1	1	0	ATTBONUS_SURA	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+305	Á÷¾÷°­ÇÔ(¹«´ç)	8	1	1	0	ATTBONUS_SHAMAN	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+306	Á÷¾÷°­ÇÔ(¼öÀÎ)	8	1	1	0	ATTBONUS_WOLF	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0
+307	¼º¸¶ÀÇÈû	8	1	1	0	MOUNT_UPGRADE_SUNGMA_STR	3+(horselv*skilllv)*(skilllv/500)		3+(skilllv*(horselv*0.4))/20		180			SELFONLY		NONE				0	0	NORMAL	0	1	1000	0
+308	¼º¸¶ÀÇ½ÅÃ¼	8	1	1	0	MOUNT_UPGRADE_SUNGMA_HP	3+(horselv*skilllv)*(skilllv/500)		3+(skilllv*(horselv*0.4))/20		180			SELFONLY		NONE				0	0	NORMAL	0	1	1000	0
+309	¼º¸¶ÀÇÇ×·Â	8	1	1	0	MOUNT_UPGRADE_SUNGMA_MOVE	3+(horselv*skilllv)*(skilllv/500)		3+(skilllv*(horselv*0.4))/20		180			SELFONLY		NONE				0	0	NORMAL	0	1	1000	0
+310	¼º¸¶ÀÇÁö¼º	8	1	1	0	MOUNT_UPGRADE_SUNGMA_IMMUNE	3+(horselv*skilllv)*(skilllv/500)		3+(skilllv*(horselv*0.4))/20		180			SELFONLY		NONE				0	0	NORMAL	0	1	1000	0
+311	¸íÁß	8	1	1	0	HIT_PCT	1+(skilllv*horselv/100)							SELFONLY,BUFF		NONE				0	0	NORMAL	0	1	1000	0

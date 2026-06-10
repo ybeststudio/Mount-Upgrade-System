@@ -1,0 +1,22 @@
+Group	Horse_Skills_Box
+{
+	Vnum	50070
+	1	55050	1	10	-- Riding (Swift Hooves)
+	2	55051	1	10	-- Riding (EXP)
+	3	55052	1	10	-- Riding (Raging Storm)
+	4	55053	1	10	-- Riding (Feather Walk)
+	5	55054	1	10	-- Riding (Immortal)
+	6	55055	1	10	-- Riding (No Knockback)
+	7	55056	1	10	-- Riding (Random)
+	8	55057	1	10	-- Riding (vs. Warriors)
+	9	55058	1	10	-- Riding (vs. Ninjas)
+	10	55059	1	10	-- Riding (vs. Suras)
+	11	55060	1	10	-- Riding (vs. Shamans)
+	12	55061	1	10	-- Riding (vs. Lycans)
+	13	55062	1	10	-- Riding (Horse Skill)
+	14	55063	1	10	-- Riding (Sung Ma's W STR)
+	15	55064	1	10	-- Riding (Sung Ma's W VIT)
+	16	55065	1	10	-- Riding (Sung Ma's W RES)
+	17	55066	1	10	-- Riding (Sung Ma's W INT)
+	18	55067	1	10	-- Riding (Precision)
+}

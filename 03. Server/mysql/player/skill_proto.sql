@@ -1,0 +1,37 @@
+DELETE FROM `skill_proto` WHERE `dwVnum` BETWEEN 285 AND 311;
+
+INSERT INTO `skill_proto` (
+	`dwVnum`, `szName`, `bType`, `bMaxLevel`, `dwSplashRange`, `bLevelStep`, `bLevelLimit`,
+	`szPointOn`, `szPointPoly`, `szSPCostPoly`, `szDurationPoly`, `szDurationSPCostPoly`, `szCooldownPoly`,
+	`szMasterBonusPoly`, `szGrandMasterAddSPCostPoly`, `setFlag`, `setAffectFlag`,
+	`szPointOn2`, `szPointPoly2`, `szDurationPoly2`, `setAffectFlag2`,
+	`szPointOn3`, `szPointPoly3`, `szDurationPoly3`,
+	`prerequisiteSkillVnum`, `prerequisiteSkillLevel`, `iMaxHit`, `szSplashAroundDamageAdjustPoly`, `eSkillType`, `dwTargetRange`
+) VALUES
+(285, 'Binicilik (Çevik Toynak)', 8, 1, 0, 1, 0, 'MOUNT_UPGRADE_NIMBLE', '(4+(horselv*skilllv/100))*(skilllv/3)', '', '3+(skilllv*(horselv*0.4))/20', '', '180', '', '', 'SELFONLY', '', 'MOV_SPEED', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(286, 'Binicilik (EXP)', 8, 1, 0, 1, 0, 'MALL_EXPBONUS', '((horselv*skilllv/100)+1.5)+(skilllv/8)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(287, 'Binicilik (Öfkeli Fırtına)', 8, 1, 0, 1, 0, 'MOUNT_UPGRADE_SPEED', '(5+(horselv*skilllv/600))*(skilllv/5)', '', '3+(skilllv*(horselv*0.4))/20', '', '180', '', '', 'SELFONLY', '', 'ATT_SPEED', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(288, 'Binicilik (Hafif Adım)', 8, 1, 0, 1, 0, 'NONE', '(horselv*(skilllv*number(5,10)))/40*skilllv', '', '1+(skilllv*(horselv*0.3))/20', '', '300', '', '', '', '', 'NONE', '(horselv*(skilllv*10))/40*skilllv', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(289, 'Binicilik (Yenilmezlik)', 8, 1, 0, 1, 0, 'NONE', '', '', '(horselv*(skilllv*0.3))/60', '', '600', '', '', 'SELFONLY', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(290, 'Binicilik (Geri Tepme Yok)', 8, 1, 0, 1, 0, 'MOUNT_UPGRADE_NO_KNOCKBACK', '', '', '3+(skilllv*(horselv*0.5))/20', '', '180', '', '', '', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(291, 'Binicilik (Yarı İnsanlara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_HUMAN', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(292, 'Binicilik (Hayvanlara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_ANIMAL', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(293, 'Binicilik (Orklara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_ORC', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(294, 'Binicilik (Mistiklere Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_MILGYO', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(295, 'Binicilik (Ölümsüzlere Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_UNDEAD', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(296, 'Binicilik (Şeytanlara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_DEVIL', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(297, 'Binicilik (Zodyak Canavarlarına Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_CZ', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(298, 'Binicilik (Çöl Canavarlarına Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_DESERT', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(299, 'Binicilik (Böceklere Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_INSECT', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(300, 'Binicilik (Tüm Canavarlara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_MONSTER', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(301, 'Binicilik (At Becerisi)', 8, 1, 0, 1, 0, 'NONE', 'k*(skilllv/(140-horselv))', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(302, 'Binicilik (Savaşçılara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_WARRIOR', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(303, 'Binicilik (Ninjalara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_ASSASSIN', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(304, 'Binicilik (Suralara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_SURA', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(305, 'Binicilik (Şamanlara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_SHAMAN', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(306, 'Binicilik (Lycanlara Karşı Güçlü)', 8, 1, 0, 1, 0, 'ATTBONUS_WOLF', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(307, 'Binicilik (SungMa İradesi STR)', 8, 1, 0, 1, 0, 'MOUNT_UPGRADE_SUNGMA_STR', '3+(horselv*skilllv)*(skilllv/500)', '', '3+(skilllv*(horselv*0.4))/20', '', '180', '', '', 'SELFONLY', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(308, 'Binicilik (SungMa İradesi VIT)', 8, 1, 0, 1, 0, 'MOUNT_UPGRADE_SUNGMA_HP', '3+(horselv*skilllv)*(skilllv/500)', '', '3+(skilllv*(horselv*0.4))/20', '', '180', '', '', 'SELFONLY', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(309, 'Binicilik (SungMa İradesi RES)', 8, 1, 0, 1, 0, 'MOUNT_UPGRADE_SUNGMA_MOVE', '3+(horselv*skilllv)*(skilllv/500)', '', '3+(skilllv*(horselv*0.4))/20', '', '180', '', '', 'SELFONLY', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(310, 'Binicilik (SungMa İradesi INT)', 8, 1, 0, 1, 0, 'MOUNT_UPGRADE_SUNGMA_IMMUNE', '3+(horselv*skilllv)*(skilllv/500)', '', '3+(skilllv*(horselv*0.4))/20', '', '180', '', '', 'SELFONLY', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0),
+(311, 'Binicilik (Tamlık)', 8, 1, 0, 1, 0, 'HIT_PCT', '1+(skilllv*horselv/100)', '', '', '', '', '', '', 'SELFONLY,BUFF', '', 'NONE', '', '', '0', '0', '', '', 0, 1, 1000, '', 'NORMAL', 0);

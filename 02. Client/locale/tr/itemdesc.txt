@@ -1,0 +1,38 @@
+50046	Asil çim	Son derece yetenekli binicilerin güçlü savaş atlarını canlandırmakta kullandıkları efsanevi bitki.
+50047	Kırmızı ginseng (Prem.)	Sıcak buharla işlenmiş bu birinci sınıf ginseng, güçlü savaş atları için ideal bir yemdir.
+50048	At yemi	At becerisini geliştirmek için gereklidir.
+50049	Altın at kitabı	Güçlü savaş atını çağır. Bunu kullanmak için 300 SP'ye ihtiyacın var.
+
+55050	Binicilik (Çevik toynak)	Kısa süre üzerine bindiğinde hareket hızını artırır.
+55051	Binicilik (EXP)	Sürüş sırasında EXP bonusunu artırır
+55052	Binicilik (Öfk. fırtına)	Kısa süre üzerine bindiğinde saldırı hızını artırır.
+55053	Binicilik (Hafif adım)	SÜRMEDİĞİNDE hafif adımı etkinleştirir.
+55054	Binicilik (Yenilmezlik)	HP değerin %30'un altına düştüğünde 3 saniyeliğine yenilmez olursun.
+55055	Binicilik (Geri tp. yok)	Bir canavara saldırırsan, kısa süreliğine geri tepilmez.
+55056	Binicilik (Tesadüfi)	Tesadüfi bir at becerisi sağlar.
+55057	Binicilik (Savaşçlr. k.)	Savaşçılara karşı güçlü.
+55058	Binicilik (Ninjalara k.)	Ninjalara karşı güçlü.
+55059	Binicilik (Suralara k.)	Suralara karşı güçlü.
+55060	Binicilik (Şamanlara k.)	Şamanlara karşı güçlü.
+55061	Binicilik (Lycanlara k.)	Lycanlara karşı güçlü.
+55062	Binicilik (At becerisi)	Güçlü beceriler atını daha da kullanışlı hale getirir.
+55063	Binicilik (SM. i. (STR)	At üzerinde savaşırken SungMa iradesini (STR) artırır.
+55064	Binicilik (SM. i. (VIT)	At üzerinde savaşırken SungMa iradesini (VIT) artırır.
+55065	Binicilik (SM. i. (RES)	At üzerinde savaşırken SungMa iradesini (RES) artırır.
+55066	Binicilik (SM. i. (INT)	At üzerinde savaşırken SungMa iradesini (INT) artırır.
+55067	Binicilik (Tamlık)	Sürüş sırasında tamlık oranını artırır.
+55070	At becerisi sandığı	Tesadüfi bir at beceri kitabı içerir.
+
+72778	Binicilik (Çevik toynak)	Kısa süre üzerine bindiğinde hareket hızını artırır. Ticareti yapılamaz. Dükkanda satılamaz
+72779	Binicilik (EXP)	Biniş sırasında EXP bonusunu artırır. Ticareti yapılamaz. Dükkanda satılamaz
+72780	Binicilik (Öfk. fırtına)	Kısa süre üzerine bindiğinde saldırı hızını artırır. Ticareti yapılamaz. Dükkanda satılamaz
+72781	Binicilik (Hafif adım)	SÜRMEDİĞİNDE hafif adımı etkinleştirir. Ticareti yapılamaz. Dükkanda satılamaz
+72782	Binicilik (Yenilmezlik)	HP değerin %30'un altına düştüğünde 3 saniyeliğine yenilmez olursun. Ticareti yapılamaz. Dükkanda satılamaz
+72783	Binicilik (Geri tp. yok)	Bir canavara saldırırsan, kısa süreliğine geri tepilmez. Ticareti yapılamaz. Dükkanda satılamaz
+72784	Binicilik (Tesadüfi)	Tesadüfi bir at becerisi sağlar. Ticareti yapılamaz. Dükkanda satılamaz
+72785	Binicilik (At becerisi)	Güçlü beceriler atını daha da kullanışlı hale getirir. Ticareti yapılamaz. Dükkanda satılamaz
+72786	Binicilik (SM. i. STR)	At üzerinde savaşırken SungMa iradesini (STR) artırır. Ticareti yapılamaz. Dükkanda satılamaz
+72787	Binicilik (SM. i. VIT)	At üzerinde savaşırken SungMa iradesini (VIT) artırır. Ticareti yapılamaz. Dükkanda satılamaz
+72788	Binicilik (SM. i. RES)	At üzerinde savaşırken SungMa iradesini (RES) artırır. Ticareti yapılamaz. Dükkanda satılamaz
+72789	Binicilik (SM. i. INT)	At üzerinde savaşırken SungMa iradesini (INT) artırır. Ticareti yapılamaz. Dükkanda satılamaz
+72790	Binicilik (Tamlık)	Biniş sırasında tamlık oranını artırır. Ticareti yapılamaz. Dükkanda satılamaz

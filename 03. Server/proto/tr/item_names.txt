@@ -1,0 +1,38 @@
+50046	Asil çim
+50047	Kırmızı ginseng (Prem.)
+50048	At yemi
+50049	Altın at kitabı
+
+55050	Binicilik (Çevik toynak)
+55051	Binicilik (EXP)
+55052	Binicilik (Öfk. fırtına)
+55053	Binicilik (Hafif adım)
+55054	Binicilik (Yenilmezlik)
+55055	Binicilik (Geri tp. yok)
+55056	Binicilik (Tesadüfi)
+55057	Binicilik (Savaşçlr. k.)
+55058	Binicilik (Ninjalara k.)
+55059	Binicilik (Suralara k.)
+55060	Binicilik (Şamanlara k.)
+55061	Binicilik (Lycanlara k.)
+55062	Binicilik (At becerisi)
+55063	Binicilik (SM. i. (STR)
+55064	Binicilik (SM. i. (VIT)
+55065	Binicilik (SM. i. (RES)
+55066	Binicilik (SM. i. (INT)
+55067	Binicilik (Tamlık)
+55070	At becerisi sandığı
+
+72778	Binicilik (Çevik toynak)
+72779	Binicilik (EXP)
+72780	Binicilik (Öfk. fırtına)
+72781	Binicilik (Hafif adım)
+72782	Binicilik (Yenilmezlik)
+72783	Binicilik (Geri tp. yok)
+72784	Binicilik (Tesadüfi)
+72785	Binicilik (At becerisi)
+72786	Binicilik (SM. i. STR)
+72787	Binicilik (SM. i. VIT)
+72788	Binicilik (SM. i. RES)
+72789	Binicilik (SM. i. INT)
+72790	Binicilik (Tamlık)

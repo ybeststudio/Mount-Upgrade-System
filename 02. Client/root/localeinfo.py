@@ -1,0 +1,6 @@
+# In `GetAlignmentTitleName`, find this block:
+"HAVE_TO_RIDE" : CANNOT_SKILL_HAVE_TO_RIDE,
+
+# Add after it:
+if app.ENABLE_MOUNT_UPGRADE_SYSTEM:
+	LEVEL_LIST = ["", HORSE_LEVEL1, HORSE_LEVEL2, HORSE_LEVEL3, HORSE_LEVEL4]
