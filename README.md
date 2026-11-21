@@ -261,7 +261,7 @@ Bu export paketi **Best Studio** tarafından hazırlanmıştır.
 - GitHub: https://github.com/ybeststudio
 - Discord Server: https://discord.gg/NXmc6JrwYr
 - Discord ID: `beststudio`
-- Web: https://bestpro.dev
+- Web: https://www.beststudio.dev/
 - TurkMMO Forum: https://forum.turkmmo.com/uye/2104546-best-studio/
 - YouTube: https://www.youtube.com/@beststudiostr
 - Instagram: https://www.instagram.com/ybeststudio
